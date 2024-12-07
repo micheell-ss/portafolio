@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Micheell</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Lora:wght@400;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Avenir:wght@300;400;500;700&display=swap"/>
+  </head>
+  <body>
+    <header >
+      <div  class="menu-icon">
+        <span class="material-symbols-outlined"> menu </span>
+        <div class="brand"><a href="#intro">MS</a></div>
+      </div>
+      <nav class="content-nav">
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección de Introducción -->
+      <section id="intro" class="intro">
+        <h1 class="intro__title">
+          Explora mi mundo de diseño, donde cada proyecto cuenta una historia
+          única.
+        </h1>
+        <button class="intro__btn">¡DESCUBRE UN POCO MÁS!</button>
+      </section>
+
+      <!-- Sección Sobre Mi -->
+      <section id="about" class="about">
+        <div class="about__content">
+          <img
+            src="./img/sobre mi.png"
+            alt="Micheell Salas"
+            class="about__image"
+          />
+          <div class="about__text">
+            <p class="text">
+              ¡Hola! Soy Micheell Salas, una amante del diseño gráfico que
+              convierte ideas en arte. Con experiencia en diseño editorial y
+              branding, me apasiona crear experiencias visuales que inspiran y
+              transforman. Cada proyecto es una oportunidad para dejar una
+              huella única en el mundo. ¡Hagamos magia juntos!
+            </p>
+            <button
+              onclick="window.location.href='https://api.whatsapp.com/send?phone=+573223349993&text=Michell+salas'"
+              class="about__btn"
+            >
+              ¡Contáctame!
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Proyectos -->
+      <section id="projects" class="projects-section">
+        <!-- Título principal -->
+        <div class="header-projects">
+          <div class="line-1 line-left"></div>
+          <h1 class="title">MIS PROYECTOS</h1>
+          <div class="line-2 line-right"></div>
+        </div>
+    
+        <!-- Sección de proyectos -->
+        <div class="projects">
+          <!-- Proyecto 1 -->
+          <div class="project">
+            <img src="./img/vogue.png" alt="Vogue">
+            <h2 class="text-card">VOGUE</h2>
+            <p >
+              Trabajo editorial realizado se inspiró en Vogue, utilizando un diseño elegante y una tipografía clásica, con un enfoque en imágenes impactantes y una presentación visual atractiva.
+            </p>
+          </div>
+    
+          <!-- Proyecto 2 -->
+          <div class="project">
+            <img src="./img/escuchamichaeljackson.png" alt="Escucha Michael Jackson">
+            <h2>ESCUCHA MICHAEL JACKSON</h2>
+            <p>
+              El trabajo titulado "Escucha" consiste en un diseño vectorial de la imagen de Michael Jackson, utilizando letras para formar su retrato. Este enfoque creativo combina tipografía y arte visual, logrando una representación única del icónico cantante.
+            </p>
+          </div>
+    
+          <!-- Proyecto 3 -->
+          <div class="project">
+            <img src="./img/el extrangero.png" alt="El extranjero">
+            <h2 class="text-card">EL EXTRANJERO</h2>
+            <p>
+              Rediseño de la portada de El extranjero de Albert Camus, junto con la diagramación del contenido, asegurando una presentación visual coherente y de alta calidad.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Contacto -->
+      <section id="contact" class="contact">
+        <h2 class="contact__title">¡Trabajemos juntos!</h2>
+        <p class="contact_text">
+          Si tienes alguna consulta o proyecto en mente, no dudes en ponerte en
+          contacto conmigo.
+        </p>
+        <button onClick="window.location.href='mailto:micheell172005salassolano@gmail.com?subject=Quiero%20contactarte&body=Hola%20Micheell%2C%20';" class="contact__btn">¡Presiona Para Agendar Una Cita!</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__section footer__ul">
+          <ul>
+            <li><a href="#intro">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__section logo">MS</div>
+        <div class="footer__section contact-p">
+          <p>Contacto: 3223349993</p>
+          <p>Instagram: @micheellsalas</p>
+          <p>Email: michellsalas@hotmail.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
